@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Data files (IMPORTANT - optional based on task)
+data/raw/
+data/processed/
+
+# Models (you can keep or ignore based on submission rules)
+models/*.pkl
+
+# Outputs (plots + reports)
+outputs/
+outputs/plots/
+outputs/model_report.txt
+
+# Logs
+*.log
